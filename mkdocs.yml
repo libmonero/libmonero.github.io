@@ -15,7 +15,15 @@ nav:
   - Examples:
       - Overview: examples/index.md
       - RPC connection: examples/rpc-connection.md
-      - Daemon: examples/daemon.md
+      - Daemon:
+          - Overview: examples/daemon/index.md
+          - Blockchain: examples/daemon/blockchain.md
+          - Daemon status: examples/daemon/status.md
+          - Transactions and the pool: examples/daemon/transactions.md
+          - Outputs and key images: examples/daemon/outputs.md
+          - Peers and network: examples/daemon/network.md
+          - Mining: examples/daemon/mining.md
+          - Manage the node: examples/daemon/manage.md
       - Wallets:
           - Wallet types: examples/wallets/index.md
           - Wallet RPC: examples/wallets/rpc.md

@@ -112,4 +112,4 @@ Add a listener to a wallet and it is called when the wallet receives funds, when
 
 Keep the wallet open and synced for as long as you want the notifications.
 
-The daemon has a listener too, for the blocks that are added to the chain, see [Follow new blocks](daemon.md#follow-new-blocks).
+The daemon has a listener too, for the blocks that are added to the chain, see [Follow new blocks](daemon/blockchain.md#follow-new-blocks).
