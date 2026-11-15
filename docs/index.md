@@ -12,7 +12,7 @@ hide:
 **Libraries for building Monero applications, in the language you already use.**
 
 [Libraries](libraries.md){ .md-button .md-button--primary }
-[Quick start](quick-start.md){ .md-button }
+[Examples](examples/index.md){ .md-button }
 [GitHub](https://github.com/libmonero){ .md-button }
 
 </div>

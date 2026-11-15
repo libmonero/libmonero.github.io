@@ -55,3 +55,8 @@
   border-color: #ff8533;
   color: #0d0f11;
 }
+
+/* A wider page, so that the lines of the code examples fit next to the navigation. */
+.md-grid {
+  max-width: 76rem;
+}

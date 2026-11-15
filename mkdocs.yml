@@ -12,7 +12,19 @@ edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - Libraries: libraries.md
-  - Quick start: quick-start.md
+  - Examples:
+      - Overview: examples/index.md
+      - RPC connection: examples/rpc-connection.md
+      - Daemon: examples/daemon.md
+      - Wallets:
+          - Wallet types: examples/wallets/index.md
+          - Wallet RPC: examples/wallets/rpc.md
+          - Full wallet: examples/wallets/full.md
+          - Keys wallet: examples/wallets/keys.md
+          - View-only and offline: examples/wallets/view-only-offline.md
+          - Multisig: examples/wallets/multisig.md
+      - Transactions: examples/transactions.md
+      - Notifications: examples/notifications.md
   - Contributing: contributing.md
 
 theme:
