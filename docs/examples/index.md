@@ -10,9 +10,12 @@ Every library has the same data model and API, so the examples read the same in 
 
 * [RPC connection](rpc-connection.md): make a connection, check it, connect a wallet to a daemon, and go through Tor.
 * [Daemon](daemon/index.md): the calls of the node, by category: [blockchain](daemon/blockchain.md), [status](daemon/status.md), [transactions and the pool](daemon/transactions.md), [outputs and key images](daemon/outputs.md), [peers and network](daemon/network.md), [mining](daemon/mining.md) and [managing the node](daemon/manage.md).
-* [Wallets](wallets/index.md): the wallet implementations and how to use each one: [wallet RPC](wallets/rpc.md), [full wallet](wallets/full.md), [keys wallet](wallets/keys.md), [view-only and offline](wallets/view-only-offline.md) and [multisig](wallets/multisig.md).
+* [Wallets](wallets/index.md): the wallet implementations and how to use each one: [wallet RPC](wallets/rpc.md), [full wallet](wallets/full.md), [keys wallet](wallets/keys.md), [accounts and addresses](wallets/accounts.md), [sync and balances](wallets/sync.md), [files and attributes](wallets/files.md), [view-only and offline](wallets/view-only-offline.md) and [multisig](wallets/multisig.md).
 * [Transactions](transactions/index.md): [send funds](transactions/send.md), [outputs and sweeping](transactions/outputs.md), [find transactions](transactions/find.md), and [notes and proofs](transactions/notes-proofs.md).
-* [Notifications](notifications.md): be called when a wallet receives funds.
+* [Notifications](notifications.md): be called on the progress of a sync, on funds received or spent, on balances, and on new blocks.
+* [Utilities](utilities.md): convert amounts, check addresses and seeds, make integrated addresses and payment requests, and set the log.
+* [Serialization](serialization.md): turn the models into JSON and back.
+* [Errors](errors.md): catch errors, read the code of an RPC error, and check before you call.
 
 ## Get a library
 
@@ -46,7 +49,7 @@ A native wallet, the ones with `Full` and `Keys` in the name, runs in your proce
 
 ## Handle errors
 
-A call that fails throws a `MoneroError` in Python, Java, Kotlin and C#, and a `std::runtime_error` in C++. In C every call that can fail returns `MONERO_OK` or `MONERO_ERROR`, and the message is in `monero_last_error()`. The C examples leave the checks out to stay short.
+A call that fails throws an error, in every language but C, where it returns `MONERO_ERROR`. The examples leave the checks out, to stay short. See [Errors](errors.md) for how to catch them, read the code of an RPC error, and check before you call.
 
 ## Go further
 

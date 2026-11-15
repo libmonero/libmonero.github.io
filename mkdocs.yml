@@ -12,6 +12,13 @@ edit_uri: edit/main/docs/
 nav:
   - Home: index.md
   - Libraries: libraries.md
+  - Concepts:
+      - Overview: concepts/index.md
+      - How the pieces fit: concepts/how-it-fits.md
+      - Units and networks: concepts/units-and-networks.md
+      - Accounts and subaddresses: concepts/accounts-and-subaddresses.md
+      - Seeds, keys and restore height: concepts/seeds-keys-and-restore-height.md
+      - Confirmations and locks: concepts/confirmations-and-locks.md
   - Examples:
       - Overview: examples/index.md
       - RPC connection: examples/rpc-connection.md
@@ -29,6 +36,9 @@ nav:
           - Wallet RPC: examples/wallets/rpc.md
           - Full wallet: examples/wallets/full.md
           - Keys wallet: examples/wallets/keys.md
+          - Accounts and addresses: examples/wallets/accounts.md
+          - Sync and balances: examples/wallets/sync.md
+          - Files and attributes: examples/wallets/files.md
           - View-only and offline: examples/wallets/view-only-offline.md
           - Multisig: examples/wallets/multisig.md
       - Transactions:
@@ -38,6 +48,9 @@ nav:
           - Find transactions: examples/transactions/find.md
           - Notes and proofs: examples/transactions/notes-proofs.md
       - Notifications: examples/notifications.md
+      - Utilities: examples/utilities.md
+      - Serialization: examples/serialization.md
+      - Errors: examples/errors.md
   - Contributing: contributing.md
 
 theme:

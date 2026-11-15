@@ -16,4 +16,4 @@ The examples expect the node of the [overview](../index.md#run-a-node-and-a-wall
 
 A node can serve a restricted RPC, as the public nodes do. It answers the calls that read the chain and the pool, and refuses the ones that change the node or that cost it a lot: mining, banning peers, limits, pruning and stopping. The state of the node tells which one you got: `is_restricted` is true on a restricted node, see [Daemon status](status.md#get-the-state-of-the-node).
 
-A call that a node refuses fails with an error, as any other call that fails. See [Handle errors](../index.md#handle-errors).
+A call that a node refuses fails with an error, as any other call that fails. See [Errors](../errors.md).

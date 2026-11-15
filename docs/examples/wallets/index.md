@@ -18,6 +18,8 @@ Which language has which implementation:
 | Full wallet | yes | yes | yes | not yet | yes | yes |
 | Keys wallet | yes | not yet | yes | not yet | yes | yes |
 
+Whatever the implementation, a wallet has [accounts and subaddresses](accounts.md), it [syncs](sync.md), and it has [files and attributes](files.md).
+
 On top of the implementation, a wallet can be of a kind that is set by how it is created, with any implementation that can create it:
 
 * A [view-only and an offline wallet](view-only-offline.md) split the keys in two: one wallet sees the funds and builds a transaction, the other one signs it and never goes online.
