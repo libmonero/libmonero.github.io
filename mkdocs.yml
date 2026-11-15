@@ -31,7 +31,12 @@ nav:
           - Keys wallet: examples/wallets/keys.md
           - View-only and offline: examples/wallets/view-only-offline.md
           - Multisig: examples/wallets/multisig.md
-      - Transactions: examples/transactions.md
+      - Transactions:
+          - Overview: examples/transactions/index.md
+          - Send funds: examples/transactions/send.md
+          - Outputs and sweeping: examples/transactions/outputs.md
+          - Find transactions: examples/transactions/find.md
+          - Notes and proofs: examples/transactions/notes-proofs.md
       - Notifications: examples/notifications.md
   - Contributing: contributing.md
 

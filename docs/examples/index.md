@@ -11,7 +11,7 @@ Every library has the same data model and API, so the examples read the same in 
 * [RPC connection](rpc-connection.md): make a connection, check it, connect a wallet to a daemon, and go through Tor.
 * [Daemon](daemon/index.md): the calls of the node, by category: [blockchain](daemon/blockchain.md), [status](daemon/status.md), [transactions and the pool](daemon/transactions.md), [outputs and key images](daemon/outputs.md), [peers and network](daemon/network.md), [mining](daemon/mining.md) and [managing the node](daemon/manage.md).
 * [Wallets](wallets/index.md): the wallet implementations and how to use each one: [wallet RPC](wallets/rpc.md), [full wallet](wallets/full.md), [keys wallet](wallets/keys.md), [view-only and offline](wallets/view-only-offline.md) and [multisig](wallets/multisig.md).
-* [Transactions](transactions.md): send funds and find a transaction.
+* [Transactions](transactions/index.md): [send funds](transactions/send.md), [outputs and sweeping](transactions/outputs.md), [find transactions](transactions/find.md), and [notes and proofs](transactions/notes-proofs.md).
 * [Notifications](notifications.md): be called when a wallet receives funds.
 
 ## Get a library
